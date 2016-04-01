@@ -1,0 +1,126 @@
+/* protector */
+#comment-form {
+}
+
+/* Put space between confirmation message and ajax pager button. */
+#comments .morecomments-button {
+  margin-bottom: 1em;
+}
+
+/* morecomments adds <div class="text-center"> */
+#comments div.text-center {
+  text-align: left;
+}
+
+/* set username to same style as h3 */
+#comments span.username {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  margin-top: 32px !important;
+  margin-bottom: 9px !important;
+  color: #222 !important;
+}
+
+/* hide reply link from replies. */
+#comments .indented .comment-reply a.ajax-comments-reply {
+  display: none;
+}
+
+/* hide reply from new comment b/c it is not approved */
+#comments .comment-unpublished .comment-reply {
+  display: none;
+}
+
+/* Hide blank Honeypot field on Windows */
+#comments .url-textfield { display: none !important; }
+
+/* Comments title bar */
+#comments #leave-comment {
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  min-height: 68px;
+}
+#comments #leave-comment p {
+  position: absolute;
+  bottom: 10px;
+}
+#comments h2.comments__title {
+  margin-bottom: 0.5em;
+}
+#comments article.comment {
+  background: #fff;
+  padding: 18px;
+  margin-bottom: 18px;
+  border-left: 4px solid #1596D1;
+  border-right: 1px #ddd solid;
+  border-top: 1px #ddd solid;
+  border-bottom: 1px #ddd solid;
+}
+#comments article.comment.has-reply {
+  margin-bottom: 0;
+  border-bottom: 0px #ddd solid;
+}
+#comments article.comment ul.links {
+  overflow: auto;
+}
+#comments article.comment ul.links li {}
+#comments article.comment ul.links li.comment-complaint {
+  padding-left: 5px;
+  float: left;
+  width: 65%;
+}
+#comments article.comment ul.links li.comment-reply {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+#comments article.comment ul.links li.comment-reply-show {
+  clear: both;
+  display: block;
+}
+
+/* author name */
+#comments h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* replies */
+#comments .indented {
+  padding: 0 18px 18px;
+  margin-bottom: 18px;
+  border-left: 4px solid #1596D1;
+  background: #fff;
+  border-right: 1px #ddd solid;
+  border-bottom: 1px #ddd solid;
+}
+#comments .indented .indented {
+  border-right: 0px #ddd solid;
+  border-bottom: 0px #ddd solid;
+  border-top: 0px #ddd solid;
+}
+#comments .indented article.comment {
+  padding: 0;
+  border-left: 4px solid #ddd;
+  padding-left: 18px;
+  margin-bottom: 18px;
+  border-right: 0px #ddd solid;
+  border-bottom: 0px #ddd solid;
+  border-top: 0px #ddd solid;
+}
+#comments #comment-form {
+  background: #fff;
+}
+#comments #comment-form h2#section-header {
+  background: #f5f5f5;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+/* break long strings in comments */
+#comments {
+  word-wrap: break-word;
+}
+#comments.row {
+  border: none;
+}

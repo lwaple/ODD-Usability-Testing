@@ -1,0 +1,232 @@
+.icon-download:before.menu-secondary{
+	color:#7e7f83;
+}
+.menu-secondary p{
+	color:#7e7f83;
+	margin:30px 20px 10px;
+}
+
+.mp-menu ul li > a{
+	
+}
+
+
+.mp-menu ul li.menu-secondary > a {
+	display: block;
+	padding: 0 1em 0.2em 1.5em;
+	outline: none;
+	box-shadow: none;
+	text-shadow: none;
+	font-size: 14px;
+	-webkit-transition:none;
+	-moz-transition: none;
+	transition: none;
+	color:#7e7f83;
+}
+
+.mp-menu ul li.menu-secondary a:hover,
+.mp-level > ul > li.menu-secondary:first-child > a:hover {
+	/* background: rgba(0,0,0,0.2); */
+	background: none;  /* JH */
+	box-shadow: none;
+	color:#fff;
+}
+.navbar .container.page-title{
+	background-color:#ebebeb;
+}
+
+
+
+/* Icons start*/
+.icon-patent:before {
+	background-image:url(../images/ico_patent.png);
+	content: " ";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-trademark:before {
+	background-image:url(../images/ico_trademark.png);
+	content: " ";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+.icon-download:before {
+	background-image:url(../images/ico_download.png);
+	content: " ";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*/
+
+.icon-download-nav:before {
+	background-image:url(../images/ico_download.png);
+	content: " ";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.icon-close:after{
+	background-image:url(../images/ico_close.png);
+	content: " ";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-bars:after{
+	background-image:url(../images/bars.svg);
+	content: " ";
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+	margin:4px;
+}
+
+.right-top-nav{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:13px;
+}
+
+.icon-chevron-right:after{
+	/**/ 
+	z-index:-100;
+}
+
+
+
+/* Icons end */
+
+
+/* Sub menu start */
+
+.sub-menu-last li > a{
+	font-size:14px !important;
+}
+
+/* Sub menu end */
+
+/* Top Navigation */
+.page-title p a{
+	color:#333;
+	text-decoration:none;
+}
+
+
+
+
+
+
+/* Common */
+/* no-gutters Class Rules */
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+
+.nav.nav-stacked  a{
+    color: #fff !important;
+}
+
+.nav.nav-stacked > li.active > a, ul.sub-menu-last > li.active > a{
+	background-color: rgba(255,255,255,.10);
+    color: #fff;
+	border-left:4px solid #009cde;
+}
+
+.nav.nav-stacked > li.active > a:hover, .nav.nav-stacked > li.active > a:focus{
+    background-color: #009cde;
+    color: #fff;
+    cursor: default;
+}
+
+.nav.nav-stacked > li > a:hover{
+   background-color: #009cde;
+    color: #fff;
+    cursor: default;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color:transparent; 
+}
+
+/* Product Details Page Start */
+
+.left-side-nav{
+	background: #282930;
+	padding:0px;
+	margin-top:0px;
+	min-height:3000px;
+	
+}
+.sidebar-nav-fixed {
+	width:16.6%;
+}
+.mp-cover{
+
+}
+
+mp-pushed{
+	min-height: 1100px;
+}
+
+.col-container-nav{
+	padding:0px; margin-top:0px; background-color:#282930;
+}
+.container-nav{
+	
+}
+.container-nav-inner {
+    overflow-y: auto;
+	overflow-x: hidden;
+    /* height: 900px; */
+    line-height: 1em;
+	background-color:#282930;
+	width:300px;
+}
+
+.container-nav-inner::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.container-nav-inner::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.container-nav-inner::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.container-nav-inner::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid rgba(255,255,255,0.2); /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+/* unified-event */
+.unified-event-block{
+	background-image:url(../images/api_bg.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	
+}

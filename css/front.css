@@ -1,0 +1,221 @@
+/*****************************************************************************
+ * Main
+ ****************************************************************************/
+/* change background */
+body.front {
+  background: #f6f6f6;
+}
+/* hide home link on frontpage */
+html body.front nav .menu.nav.navbar-nav .first{
+  display :none;
+}
+body.front .container {
+  width: 100%;
+}
+body.front a.page-link {
+  font-size: 1.143em;
+}
+
+/*****************************************************************************
+ * Hero
+ ****************************************************************************/
+#dh-hero {
+  background-size: cover; /* if we use 100%, it will cut content. cover works better. */
+  background-image: url(../images/Hero_Image_light_x_large.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+#dh-hero h2 {
+  color: #fff;
+}
+#dh-hero .panel {
+  background: #004c97; opacity: 0.9; color: #fff;
+}
+#dh-hero .icon-wrapper-area-chart {
+  transform: scale(3.5); margin: 26px auto; width: 30px; height: 30px; padding: 2px; text-align: center; border-radius: 50%;
+}
+#dh-hero .icon-wrapper {
+  transform: scale(3.5); margin: 26px auto; width: 30px; height: 30px; padding: 2px; text-align: center;
+}
+#dh-hero .down-arrow-link {
+  transform: scale(3.5);
+  margin: 26px auto;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  text-align: center;
+}
+#dh-hero #api-coming-soon {
+  padding: 1em;
+}
+#dh-hero #api-coming-soon .box {
+  position: relative;
+}
+#dh-hero #api-coming-soon .ribbon {
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(45deg);
+  border: 25px solid transparent;
+  border-bottom: 25px solid #fff;
+  position: absolute;
+  top: -23px;
+  right: -57px;
+  padding: 0 10px;
+  width: 170px;
+}
+#dh-hero #api-coming-soon .ribbon .diagonal-text {
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  color: #444;
+  font-size: 0.786em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/*****************************************************************************
+ * Available Soon
+ ****************************************************************************/
+#block-bean-available-soon .panel a {
+  color: #222222;
+}
+#block-bean-available-soon {
+  padding-bottom: 50px;
+}
+#block-bean-available-soon h1 {
+  margin-top: 55px;
+}
+#block-bean-available-soon .panel {
+  min-height: 21.429em;
+}
+#block-bean-available-soon .icon-wrapper {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 3px solid #ddd;
+  margin: 10px auto;
+  padding: 4px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+/* imported from style_r1_base.css */
+.available-soon-header {
+  margin-bottom: 20px;
+}
+#available-soon-blurb {
+  font-size: 20px;
+  font-weight:300;
+  /*text-align: justify; */
+  padding-bottom:18px;
+}
+.available-soon-icon {
+  font-size: 20px;
+}
+.available-soon-item {
+  border: 2px solid;
+  background-color: #fff;
+  border-color: #ccc;
+  padding: 40px 20px 18px;
+  display: block;
+  min-height:335px;
+}
+
+/*****************************************************************************
+ * Community
+ ****************************************************************************/
+#dh-community {
+  background: #f5f5f5; /* @todo: Change body background to this instead. */
+}
+#dh-community h1 {
+  color: #fff;
+  margin-bottom: 0.3em;
+}
+#dh-community-img {
+  background-size: 100%;
+  background-image: url(../images/community_image.jpg);
+  background-repeat: no-repeat;
+}
+#dh-community .img-responsive {
+  width: 100%;
+  height: auto;
+}
+#dh-community .container {
+  margin-top: -12em;
+}
+.communitymainclass {
+  background: #f5f5f5;
+}
+.communitydescclass{
+  padding: 4% 10% 10% 10%;
+}
+.communitymainclass{
+  margin-top: -10%;
+}
+.entity.entity-bean.bean-community.clearfix {
+    font-size: 20px;
+}
+.comtitle{
+   color: #fff;
+}
+.field.field-name-field-communitydescription{
+    font-size: 20px;
+}
+
+/*****************************************************************************
+ * Bulk Data Products
+ ****************************************************************************/
+#dh-products {
+  padding-top: 2em;
+}
+#dh-products .icon-wrapper {
+  transform: scale(1.5);
+  margin: 6px auto;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0 0 0 2px #eee;
+  border-radius: 50%;
+}
+/* If the color of the arrows need to change, the background-img in svg format
+ * will go here. */
+#block-uspto-odd-blocks-uspto-latest-products .icon-angle-double-right:after {
+}
+
+/*****************************************************************************
+ * Visualization
+ ****************************************************************************/
+#dh-viz {
+  background: #004c97;
+}
+#dh-viz .icon-bar-chart {
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  padding: 10px;
+}
+#dh-viz h1,
+#dh-viz h3,
+#dh-viz a,
+#dh-viz p {
+  color: #fff;
+}
+
+/*****************************************************************************
+ * Web Analytics
+ ****************************************************************************/
+#dh-web-analytics .icon-wrapper {
+  transform: scale(1.5);
+  margin: 26px auto;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0 0 0 2px #eee;
+  border-radius: 50%;
+}
+

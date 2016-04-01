@@ -1,0 +1,10 @@
+body.page-data .highlighted {  
+  background-image: url("../images/home_header_image.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-bottom:11px;
+}
+body.page-data .container {
+  width: 100%;
+}

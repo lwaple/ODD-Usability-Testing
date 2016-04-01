@@ -1,0 +1,231 @@
+
+
+
+
+
+
+.views-bootstrap-grid-plugin-style  .col .views-field-field-viz-card-image { background:#fff; border:2px solid #dcdcdc; border-bottom-width:1px; }
+.views-bootstrap-grid-plugin-style  .col .views-field-title { padding:22px 20px 15px; background:#fff; border:2px solid #dcdcdc; border-bottom:0; border-top-width:1px; }
+.views-bootstrap-grid-plugin-style  .col .views-field-title .field-content { color: #004892; font-size:24px; }
+.views-bootstrap-grid-plugin-style  .col .views-field-title .field-content a { color: #004892; text-decoration:none; }
+.views-bootstrap-grid-plugin-style  .col .views-field-field-iz-vpublished-date { padding:10px 20px 20px; background:#fff;font-weight: 600 !important; font-size:13px; border:2px solid #dcdcdc; border-top:0px; border-bottom-width:3px; }
+
+.visualizationbanner .jumbotron { padding:0; }
+.visualizationbanner .jumbotron .img-responsive { border:3px solid #fff; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; max-width:445px; float:right; }
+.visualizationbanner .jumbotron h1 { color:#fff; font-size:25px; font-weight:500; margin-top:35px; margin-bottom:20px; }
+.visualizationbanner .jumbotron p { color:#fff; font-size:18px; font-weight:normal; line-height:1.4; margin-bottom:20px; display:inline-block; width:100%; }
+.viewstory-btn { background: #004c98 none repeat scroll 0 0;border: 2px solid #ffffff;color: #ffffff; padding: 10px 24px; display:inline-block; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; }
+
+
+
+.col-md-4.blurb {
+    left: 39px;
+    position: absolute;
+    top: 200px;
+    z-index: 999;
+}
+.views-field.views-field-field-viz-featured-thumbnail {
+    position: absolute;
+    right: 0;
+    top: 216px;
+}
+.ovlyimg {
+    height: 450px;
+    /*opacity: 0.1;*/
+    width: 100%;    
+}
+.ovlyimgmain {
+    background:#004c97;   
+}
+.col-md-4.blurb h1 a {
+    color: #fff !important;
+}
+.col-md-4.blurb {
+    color: #fff !important;
+}
+.viz_blurb h2 {
+	color: #fff !important;
+font-family: Segoe UI !important;
+font-size: 25px;
+
+font-weight: 600 !important;
+	
+}
+.viz_blurb h3 {
+	padding-bottom:2px;
+	color:fff !important;
+	font-size:20px;
+	font-family: Segoe UI !important;
+	font-weight: 600 !important;
+}
+.viz_blurb  .btn btn-primary btnprmy, {
+
+margin-top: 18px;
+border: 2px solid #fff;
+color: #fff;
+background: transparent;
+
+}
+.views-bootstrap-grid-plugin-style .more-link{
+	display:none;
+}
+
+
+
+
+.viewstorybtn{
+	margin-left:2px;
+	margin-top: 18px;
+	border: 2px solid #fff;
+	color: #fff;
+	background: transparent;
+	padding: 8px 29px;
+	font-family: Segoe UI;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.feature_th img {
+    border: 6px solid #ddd;
+}
+
+
+.feature_blurb > h3 {
+    color: #fff;
+	font-family: Segoe UI;
+	font-weight: 600;
+	padding-bottom:27px;
+}
+
+.feature_blurb h2  {
+    color: #fff !important;
+    font-family: Segoe UI !important;
+     font-weight: 600;
+     pointer-events: none;
+   cursor: default;
+   text-decoration: none;
+   padding-top: 44px;
+   margin-right: -71px;
+}
+
+.view--new-visualization-2 .views-field.views-field-title {
+   line-height: 1.1; 
+}
+.viewstorybtn:hover {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.feature_th{
+	margin-top:25px;
+  
+}
+
+.visualdet_wrap > h1{
+     font-size:40px;
+    font-family: Segoe UI !important;
+     font-weight: 400;
+     pointer-events: none;
+   cursor: default;
+   text-decoration: none
+
+}
+
+.visualdet_wrap > h3{
+     font-size:20px;
+    font-family: Segoe UI !important;
+         
+    margin-top: 0;
+    font-weight: 400;
+
+}
+ #page-visualization-detail  {
+    font-family: "Segoe UI",Helvetica Neue,Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #444;
+    background-color: #fff;
+ }
+ 
+ .views-field.views-field-field-viz-story{
+    background-color:#fff;
+     padding:20px;
+    }
+  .visualdet_wrap{
+     
+  }
+  body > div.visualizationbanner > div.main-container.container{
+      background-color:#fff;
+  }
+ .featured_sub_story p{
+	  font-family: "Segoe UI",Helvetica Neue,Tahoma,Arial,sans-serif;
+	  font-size:14px;
+      padding-top:60px;
+      padding-bottom:60px;
+      padding-right:31px;
+      padding-left:31px;
+	  margin-bottom:-58px;
+ }
+ .viz-body{
+	background-color: #fff;
+    padding-bottom: 108px;
+	margin-bottom: -129px;
+      
+ }
+ .views-bootstrap-grid-plugin-style {
+	
+ }
+ 
+.viz_sub_story_title{
+	margin-top:60px;
+	padding-left:124px;
+    font-family: Segoe UI !important;
+     font-weight: 600;
+     font-size:25px;
+    }
+	
+.viz_sub_story {
+	font-size:14px;
+	line-height:1.3 !important;
+	margin-left:-30px;
+	margin-top:-49px;
+    margin-bottom:44px;
+}
+ .views-field.views-field-field-viz-card-image {
+    margin-top: 20px;
+}
+
+/*
+.embedded-view{
+	background-color:#fff;
+}
+*/
+
+ 
+#but1{
+	display:none;
+}
+ 
+  .viz_spacer{
+	
+	height: 40px;
+	margin-bottom: -29px;
+ }	
+ .views-field-field-viz-spacer { height:37px;}
+ 
+ .story {
+	 padding-top:25px;
+ }
+ .feature_viz{
+    position: absolute !important; 
+    top: 53px !important; 
+}
+.comm_header_text{font-size: 36px;
+font-weight: 400;
+position: a;
+position: absolute;
+top: 166px;
+padding-left: 117px;
+color: white !important;
+}

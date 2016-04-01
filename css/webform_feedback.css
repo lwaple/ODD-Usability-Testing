@@ -1,0 +1,101 @@
+/*------------------------------------------
+Feedback Survey
+------------------------------------------*/
+
+#webform-feedback-block #ajax-loader {
+  background: url("../images/ajax-loader.gif") no-repeat;
+  display: none;
+  height: 30px;
+  width: 100%;
+}
+
+#mask-bg {
+  background-color: #000000;
+  display: none;
+  height: 10000px;
+  left: 0;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#webform-feedback-block {
+  -moz-border-radius: 15px;
+  -moz-box-shadow: 1px 1px 5px #000;
+  -webkit-box-shadow: 1px 1px 5px #000;
+  background-color: #fff;
+  border-bottom: 20px solid #fff;
+  border-radius: 15px;
+  border-top: 20px solid #fff;
+  text-align: left;
+  color: #000;
+  box-shadow: 1px 1px 5px #000;
+  display: none;
+  height: 340px;
+  margin: 0;
+  overflow-y: scroll !important;
+  padding: 30px;
+  position: fixed;
+  top: 100px;
+  width: 65%;
+  z-index: 999;
+}
+
+#webform-feedback .ajax-progress {
+  position: fixed;
+  top: 100px;
+  width: 70%;
+  color: #fff;
+  z-index: 999;
+  background: #0072bc;
+}
+
+#formclose {
+  display: none;
+  position: fixed;
+  background: #fff;
+  margin: 5px;
+  top: 102px;
+  height: 40px;
+  width: 60%;
+  z-index: 1000;
+}
+
+#formclose a {
+  display: block;
+  float: right;
+  margin: 5px 10px 0 0;
+  color: #000 !important;
+  z-index: 1000;
+}
+
+#ajax-link {
+  display: block;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background: #0072bc;
+  position: fixed;
+  top: 45%;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+}
+
+#ajax-link:hover {
+  background: #cfb87c;
+}
+
+.feedback-button-right a {
+  right: -31px;
+}
+
+.feedback-button-left a {
+  left: -31px;
+}

@@ -1,0 +1,238 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="container-nav" id="container-nav"> 
+  <!-- Push Wrapper -->
+  <div class="mp-pusher" id="mp-pusher"> 
+    
+    <!-- mp-menu -->
+    <nav id="mp-menu" class="mp-menu">
+      <div class="mp-level"> 
+        <!-- <h2 class=""></h2> -->
+        
+        <ul>
+          <li> <a class="icon icon-patent" href="#">Patent data <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+            <div class="mp-level"> 
+              <!--<h2 class="icon icon-display"></h2>-->
+              <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> <i class="icon icon-patent"></i>Patent data</a>
+              <ul>
+              	<li> <a class="" href="../02_patent_locating_patent_data.html"><span>Locating patent data</span> </a>
+                <li> <a class="" href="#"><span>Issued patents</span> <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <!--<h2>Locating patent data</h2>--> 
+                    <a class="mp-back" href="#"><i class="icon  icon-angle-left icon-inverse"></i> Issued patents </a>
+                    <ul class="sub-menu-last">
+                      <li><a href="../03_issued_patents_patent_grants_patent_grant_data.html">Overview </a></li>
+                      <li><a href="../04_01_Patent grant multi-page TIFF images.html">Patent grant multi-page TIFF images (JUL 31, 1790 - present)</a></li>
+                      <li><a href="#">Patent grant single-page TIFF images (JUL 31, 1790 - present)</a></li>
+                      <li><a href="#">Patent grant full text data with embedded TIFF images (JAN 2001 - present)</a></li>
+                      <li><a href="#">Patent grant full text (no images) (JAN 1976 - present)</a></li>
+                      <li><a href="#">Patent grant bibliographic (front page) text data (JAN 1976 - present) </a></li>
+                      <li><a href="#">Patent grant optical character recognition (OCR) text (1920 - 1979)</a></li>
+
+                      <!-- #BeginLibraryItem "/Library/menu-secondary.lbi" -->
+                        <ul class="sub-menu-last">
+                          <li class="menu-secondary">
+                            <p>UNDERSTANDING OPEN DATA</p>
+                            <a class="" href="#">Open Data FAQ</a> <a class="" href="#">Tools and resources</a> <a class="" href="http://www.uspto.gov/learning-and-resources/glossary" target="_blank">USPTO glossary</a> </li>
+                          <li class="menu-secondary">
+                            <p>NEED HELP?</p>
+                            <a class="" href="#">Ask us a question</a> <a class="" href="#">Ask the community</a> <a class="" href="#">Check out the open community</a> </li>
+                        </ul>
+                      <!-- #EndLibraryItem -->
+                    </ul>
+                  </div>
+                </li>
+                
+                <li> <a class="" href="#"><span>Published patent applications </span> <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i>  Published patent applications</a>
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Patent application multi-page TIFF images (MAR 15, 2001 - present) (multi-page TIFF images)</a></li>
+                      <li><a href="#">Patent application single-page TIFF images (MAR 15, 2001 - present) (application yellow book 2 based on WIPO ST.33) (single-page TIFF images)</a></li>
+                      <li><a href="#">Patent application full text data with embedded TIFF images (MAR 15, 2001 - present) (application red book based on WIPO ST.36) (full-text with embedded images)</a></li>
+                      <li><a href="#">Patent application full text data (no images) (MAR 15, 2001 - present) (full-text)</a></li>
+                      <li><a href="#">Patent application publication bibliographic (front page) data (MAR 15, 2001 - present) (bibliographic)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#"><span>Patent assignment XML text </span><i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> Patent assignment XML text</a>
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Patent assignment XML (ownership) text (AUG 1980 - present) (patent assignment products)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#"><span>Patent and patent application classification information </span><i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> Patent and patent application classification information</a>
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Patent and patent application classification information (current) available bimonthly (odd months) (patent classification products)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#"><span>Patent official gazettes </span> <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> Patent official gazettes</a>
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Patent official gazettes (JUL 2, 2002 - present)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#"><span>Prosecution history files</span> <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> Prosecution history files</a>
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Patent trial and appeal board (PTAB) and/or patent review processing system (PRPS) publicly available records</a></li>
+                      <li><a href="#">Patent maintenance fee events (SEP 1, 1981 - present) (patent matainenance fee products)</a></li>
+                      <li><a href="#">Image file wrapper (IFW) petition decisions (727 (approx. 1,000 page) books) (patent IFW petition decisions)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#"><span>Historical patent data files</span> <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> Historical patent data files</a>
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Historical patent data files for academia and researchers: created/maintained by the USPTO chief economist</a></li>
+                      <li><a href="#">Output files</a></li>
+                      <li><a href="#">Intermediate files</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#"><span>Patent assignment economics data for academia and researchers</span> <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> Patent assignment economics data for academia and researchers</a>
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Patent assignment economics data for academia and researchers: created/maintained by the USPTO chief economist</a></li>
+                    </ul>
+                  </div>
+                </li>
+                
+
+					   <!-- #BeginLibraryItem "/Library/menu-secondary.lbi" -->
+                        <ul class="sub-menu-last">
+                          <li class="menu-secondary">
+                            <p>UNDERSTANDING OPEN DATA</p>
+                            <a class="" href="#">Open Data FAQ</a> <a class="" href="#">Tools and resources</a> <a class="" href="http://www.uspto.gov/learning-and-resources/glossary" target="_blank">USPTO glossary</a> </li>
+                          <li class="menu-secondary">
+                            <p>NEED HELP?</p>
+                            <a class="" href="#">Ask us a question</a> <a class="" href="#">Ask the community</a> <a class="" href="#">Check out the open community</a> </li>
+                        </ul>
+                      <!-- #EndLibraryItem -->
+                      
+              </ul>
+            </div>
+          </li>
+          <li> <a  href="#"><i class="icon icon-trademark"></i>Trademark data <i class="icon icon-chevron-right icon-inverse pull-right"></i> </a>
+            <div class="mp-level"> 
+              <!-- <h2 class="icon icon-news"></h2> --> 
+              <a class="mp-back" href="#"> <i class="icon  icon-angle-left icon-inverse"></i> <i class="icon icon-trademark"></i>  Trademark data</a>
+              <ul>
+              	<li> <a class="" href="../02_patent_locating_patent_data.html">Locating trademark data </a>
+                <li> <a class="" href="#">Trademark application images <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <!--<h2>Locating patent data</h2>--> 
+                    <a class="mp-back" href="#"><i class="icon  icon-angle-left icon-inverse"></i> Trademark application images </a>
+                    <ul class="sub-menu-last">
+                      <li><a href="#">Overview </a></li>
+                      <li><a href="#">Trademark application images (JAN 2009 - present)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#">Trademark registration images <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <!--<h2>Locating patent data</h2>--> 
+                    <a class="mp-back" href="#"><i class="icon  icon-angle-left icon-inverse"></i> Trademark registration images </a>
+                    <ul class="sub-menu-last">
+                      <li><a href="#">Overview </a></li>
+                      <li><a href="#">Trademark registration multi-page TIFF images (1870 - JUL 30, 2013)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#">Trademark applications <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <!--<h2>Locating patent data</h2>--> 
+                    <a class="mp-back" href="#"><i class="icon  icon-angle-left icon-inverse"></i> Trademark applications </a>
+                    <ul class="sub-menu-last">
+                      <li><a href="#">Overview </a></li>
+                      <li><a href="#">Trademark full text XML data (no images) - applications; assignments; and TTAB</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#">Trademark assignments <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <!--<h2>Locating patent data</h2>--> 
+                    <a class="mp-back" href="#"><i class="icon  icon-angle-left icon-inverse"></i> Trademark assignments </a>
+                    <ul class="sub-menu-last">
+                      <li><a href="#">Overview </a></li>
+                      <li><a href="#">Trademark full text XML data (no images) - assignments</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#">Trademark trial and appeal board (TTAB) <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <!--<h2>Locating patent data</h2>--> 
+                    <a class="mp-back" href="#"><i class="icon  icon-angle-left icon-inverse"></i> Trademark trial and appeal board (TTAB) </a>
+                    <ul class="sub-menu-last">
+                      <li><a href="#">Overview </a></li>
+                      <li><a href="#">Trademark full text XML data (no images) - trademark trial and appeal board (TTAB)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a class="" href="#">Trademark assignments and case file economics data for academia and researchers <i class="icon icon-chevron-right icon-inverse pull-right"></i></a>
+                  <div class="mp-level"> 
+                    <!--<h2>Locating patent data</h2>--> 
+                    <a class="mp-back" href="#"><i class="icon  icon-angle-left icon-inverse"></i> Trademark trial and appeal board (TTAB) </a>
+                    <ul class="sub-menu-last">
+                      <li><a href="#">Overview </a></li>
+                      <li><a href="#">Trademark full text XML data (no images) - trademark assignments economics data for academia and researchers: created/maintained by the USPTO chief economist</a></li>
+                      <li><a href="#">Trademark full text XML data (no images) - trademark case file economics data for academia and researchers: created/maintained by the USPTO chief economist</a></li>
+                    </ul>
+                  </div>
+                </li>
+            </div>
+          </li>
+          <li><a href="#"><i class="icon icon-download-nav" ></i> Latest product files </a> </li>
+         
+          <!-- #BeginLibraryItem "/Library/menu-secondary.lbi" -->
+                        <ul class="sub-menu-last">
+                          <li class="menu-secondary">
+                            <p>UNDERSTANDING OPEN DATA</p>
+                            <a class="" href="#">Open Data FAQ</a> <a class="" href="#">Tools and resources</a> <a class="" href="http://www.uspto.gov/learning-and-resources/glossary" target="_blank">USPTO glossary</a> </li>
+                          <li class="menu-secondary">
+                            <p>NEED HELP?</p>
+                            <a class="" href="#">Ask us a question</a> <a class="" href="#">Ask the community</a> <a class="" href="#">Check out the open community</a> </li>
+                        </ul>
+                      <!-- #EndLibraryItem -->
+                      
+        </ul>
+      </div>
+    </nav>
+    <!-- /mp-menu -->
+    
+    <div class="scroller" id="scroller"><!-- this is for emulating position fixed of the nav -->
+      <div class="scroller-inner"> 
+        <!-- Top Navigation -->
+        
+        <div class="content clearfix">
+          <div class="block clearfix">
+            <p><a id="trigger" class="icon icon-bars menu-trigger" href="#"></a></p>
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+      <!-- /scroller-inner --> 
+    </div>
+    <!-- /scroller --> 
+    
+  </div>
+  <!-- /pusher --> 
+  
+</div>
