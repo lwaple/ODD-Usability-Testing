@@ -82,12 +82,12 @@
 
       // Validate empty filters.
       if ($.trim(startDate).length < 4 || $.trim(endDate).length < 4) {
-        alert('Invalid request. Please provide both a start and an end date.')
-        return false;
+        //alert('Invalid request. Please provide both a start and an end date.')
+        //return false;
       } else {
         // Validate that end date is not earlier than start date.
         if (startDate > endDate) {
-          alert('Invalid range. End date must be later than start date.');
+         // alert('Invalid range. End date must be later than start date.');
           return false;
         }
         return true;
