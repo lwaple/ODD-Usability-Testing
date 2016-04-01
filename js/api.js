@@ -134,7 +134,7 @@
               downloadButton.text('Download latest (' + formatBytes(data.productFiles[0]['fileSize'], 2) + ')' );
               downloadButton.attr('href',latestUrl);
               downloadButton.removeClass('disabled');
-              downloadButton.prepend('<span class="glyphicon glyphicon-download"></span> ');
+              downloadButton.prepend('<span class="fa fa-download"></span> ');
 
               latestReleaseLabel.attr('style','visibility: visible');
 
@@ -153,12 +153,12 @@
               );
             } else {
               downloadButton.text('Download latest');
-              downloadButton.prepend('<span class="glyphicon glyphicon-download"></span> ');
+              downloadButton.prepend('<span class="fa fa-download"></span> ');
             }
           },
           error : function(httpReq,status,exception){
             downloadButton.text('Download latest');
-            downloadButton.prepend('<span class="glyphicon glyphicon-download"></span> ');
+            downloadButton.prepend('<span class="fa fa-download"></span> ');
           }
         });
       }
