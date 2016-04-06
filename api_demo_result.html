@@ -76,7 +76,6 @@
 <script src="js/uspto_odd_comments.js"></script>
 <script src="js/uspto_odd_external_link.js"></script>
 <script src="js/api.js"></script>
-
 <script src="js/moment.min.js"></script>
 <script src="js/bootstrap-datetimepicker.min.js"></script>
 <script src="js/uspto_odd_share_work.js"></script>
@@ -159,358 +158,309 @@
     </nav>
   </div>
 </header>
-
-
-
-
 <div id="category" class="main-container container-fluid">
   <header role="banner" id="page-header"> </header>
   <!-- /#page-header -->
   
   <div class="row">
     <aside class="col-sm-2 col-container-nav" role="complementary" id="col-container-nav">
-    
-    
-    
-    
-    
-    
-    <div class="container-nav" id="container-nav">
-    <div class="container-nav-inner" id="container-nav-inner">
-    
-<!-- Push Wrapper -->
-<div class="mp-pusher" id="mp-pusher" style="min-height:1100px;">
-<!-- mp-menu -->
-<nav id="mp-menu" class="mp-menu">
-<div class="mp-level">
-<!-- <h2 class="">1</h2> -->
-<ul>
-    <li><a href="api.html"><i class="icon  icon-angle-left icon-inverse"></i> USPTO APIs </a></li>
-    
-    <li><a href="api_patents_view.html"> PatentsView API </a></li>
-    <li><a href="api_pair_bulk_data.html"> PAIR Bulk Data API </a></li>
-    <li class="mp-active"> <a  href="api_unified_events.html"> Unified Events API </a></li>
-    <li><a  href="api_trademark_search.html"> Trademark Search API </a></li>
-    <li><a  href="api_patent_search.html"> Patent Search API</a></li>
-    <li><a  href="api_general_patent_statistics.html"> General Patent Statistics API </a></li>
-                  
-</ul>
-</div>
-</nav>
-<!-- /mp-menu -->
-<div class="scroller" id="scroller">
-  <!-- this is for emulating position fixed of the nav -->
-  <div class="scroller-inner">
-    <!-- Top Navigation -->
-    <div class="content clearfix">
-      <div class="block clearfix">
-        <p><a id="trigger" class="icon icon-bars menu-trigger" href="#"></a></p>
-        <br />
-        <br />
-        <br />
+      <div class="container-nav" id="container-nav">
+        <div class="container-nav-inner" id="container-nav-inner"> 
+          
+          <!-- Push Wrapper -->
+          <div class="mp-pusher" id="mp-pusher" style="min-height:1100px;"> 
+            <!-- mp-menu -->
+            <nav id="mp-menu" class="mp-menu">
+              <div class="mp-level"> 
+                <!-- <h2 class="">1</h2> -->
+                <ul>
+                  <li><a href="api.html"><i class="icon  icon-angle-left icon-inverse"></i> USPTO APIs </a></li>
+                  <li><a href="api_patents_view.html"> PatentsView API </a></li>
+                  <li><a href="api_pair_bulk_data.html"> PAIR Bulk Data API </a></li>
+                  <li class="mp-active"> <a  href="api_unified_events.html"> Unified Events API </a></li>
+                  <li><a  href="api_trademark_search.html"> Trademark Search API </a></li>
+                  <li><a  href="api_patent_search.html"> Patent Search API</a></li>
+                  <li><a  href="api_general_patent_statistics.html"> General Patent Statistics API </a></li>
+                </ul>
+              </div>
+            </nav>
+            <!-- /mp-menu -->
+            <div class="scroller" id="scroller"> 
+              <!-- this is for emulating position fixed of the nav -->
+              <div class="scroller-inner"> 
+                <!-- Top Navigation -->
+                <div class="content clearfix">
+                  <div class="block clearfix">
+                    <p><a id="trigger" class="icon icon-bars menu-trigger" href="#"></a></p>
+                    <br />
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <!-- /scroller-inner --> 
+            </div>
+            <!-- /scroller -->
+            <div class="clearfix"></div>
+          </div>
+          <!-- /pusher --> 
+        </div>
       </div>
-    </div>
-  </div>
-  <!-- /scroller-inner -->
-</div>
-<!-- /scroller -->
-<div class="clearfix"></div>
-</div>
-<!-- /pusher -->
-</div>
-</div>
-
     </aside>
     <!-- /#sidebar-first -->
     
-    <section class="col-md-8" style="padding:0px; "> 
-
+    <section class="col-md-8" style="padding:0px; ">
+      <div style=" padding:30px;"> 
         
-      <div style=" padding:30px;">
-      
-      
-      
-      <!-- IP Type description -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Unified Events API</h1>
-          <h2>
-          Version | API category<br />
-Short, one-sentence description of the API
-          </h2>
-          <hr />
-          <p> Overview paragraph that describes the API. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-       				
-        </div>
-      </div>
-      
-   <section id="filters" class="block block-views clearfix ">
-      	<hr />
-      	
-        
-        
-        
+        <!-- IP Type description -->
         <div class="row">
-                
-                  <div>
-                    <div class="col-sm-12 unified-event-block">
-                      <div id="edit-files" class="form-group_DEL">
-                        
-                        <div class="">
-                        <h2>Unified Events API in action</h2>
-                        <p>Check out what's happening at the USPTO</p>
-                        
-                        
-                        <form id="product-filter-form" class="form-inline" action="api_demo_result.html" method="post" accept-charset="UTF-8">
-                        	<div class="filter-container form-wrapper form-group" id="edit-filter">
-                          <div class="form-item form-item-start form-type-textfield form-group"> <label class="control-label" for="edit-date-start">From </label>
-<input class="field-year-start form-control form-text" type="text" id="edit-date-start" name="start" value="" size="17" maxlength="4" placeholder="mm/dd/yyyy"></div>
-                          <div class="form-item form-item-end form-type-textfield form-group">
-                            <label class="control-label" for="edit-date-end">To </label>
-                            <input class="field-year-end form-control form-text" type="text" id="edit-date-end" name="end" value="" size="17" placeholder="mm/dd/yyyy">
-                          </div>
-                          <div class="form-item form-item-end form-type-textfield form-group">
-                            <label class="control-label" for="what-kind">What kind of event?     </label>
-                            <select class="form-control col-sm-12"  required aria-required="true" id="what-kind">
-                              <option value="All event types">All event types</option>
-                              <option value="">Event type A</option>
-                              <option value="">Event type B</option>
-                              <option value="">--------------------------------</option>
-    					</select>
-                          </div>
-                          <div class="form-item form-item-end form-type-textfield form-group">
-                            <label class="control-label" for="edit-date-end">Where? </label>
-                            <input class="form-control form-text" type="text" value="" size="17" placeholder="Enter a ZIP code or city name">
-                          </div>
-                          
-                          <button class="submit-button primary-btn btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Filter"><i class="icon icon-search icon-inverse"></i> Find events</button>
-   
+          <div class="col-md-12">
+            <h1>Unified Events API</h1>
+            <h2> Version | API category<br />
+              Short, one-sentence description of the API </h2>
+            <hr />
+            <p> Overview paragraph that describes the API. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+          </div>
+        </div>
+        <section id="filters" class="block block-views clearfix ">
+          <hr />
+          <div class="row">
+            <div>
+              <div class="col-sm-12 unified-event-block">
+                <div id="edit-files" class="form-group_DEL">
+                  <div class="">
+                    <h2>Unified Events API in action</h2>
+                    <p>Check out what's happening at the USPTO</p>
+                    <form id="product-filter-form" class="form-inline" action="api_demo_result.html" method="post" accept-charset="UTF-8">
+                      <div class="filter-container form-wrapper form-group" id="edit-filter">
+                        <div class="form-item form-item-start form-type-textfield form-group">
+                          <label class="control-label" for="edit-date-start">From </label>
+                          <input class="field-year-start form-control form-text" type="text" id="edit-date-start" name="start" value="" size="17" maxlength="4" placeholder="mm/dd/yyyy">
                         </div>
-                        
-                        
-                        
-                        </form>
+                        <div class="form-item form-item-end form-type-textfield form-group">
+                          <label class="control-label" for="edit-date-end">To </label>
+                          <input class="field-year-end form-control form-text" type="text" id="edit-date-end" name="end" value="" size="17" placeholder="mm/dd/yyyy">
                         </div>
-                        
-                        <div class="table-responsive">
-                         
-                          
-                          <h2>Events at USPTO</h2><br />
-                          <table class="table table-hover table-striped" style="margin:0px;">
-                            <thead>
-                              <tr>
-                                <th class="active col-sm-2"><a href="?sort=desc&amp;order=File%20name" title="sort by File name" class="active">Event name <i class="icon icon-caret-down"></i></a></th>
-                                <th>Description</th>
-                                <th class="col-sm-1"><a href="?sort=asc&amp;order=Released" title="sort by Source" class="active">Source</a></th>
-                                <th class="col-sm-2"><a href="?sort=asc&amp;order=Released" title="sort by Location">Location</a></th>
-                                <th class="col-sm-2"><a href="?sort=asc&amp;order=Released" title="sort by Date">Date <i class="icon icon-caret-down"></i></a></th>
-                              </tr>
-                            </thead>
-                           </table>
-                           
-                          <div style="overflow: auto; max-height: 400px; border-top: none;"> 
-                           <table class="table table-hover table-striped">
-                            <thead>
-                              <tr>
-                                <th class="active col-sm-2" style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Event name</th>
-                                <th style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Description</th>
-                                <th class="col-sm-1" style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Source</th>
-                                <th class="col-sm-2" style="height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Location</th>
-                                <th class="col-sm-2" style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Date</th>
-                              </tr>
-                            </thead>
-                            
-                            <tbody>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              <tr>
-                                <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
-                                <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
-                              	<td class=" text-center"><i class="icon icon-twitter-square"></i></td>
-                                <td>Alexandria</td>
-                                <td>Mar 04, 2016</td>
-                              </tr>
-                              
-                            </tbody>
-                          </table>
-                          </div>
-                          
+                        <div class="form-item form-item-end form-type-textfield form-group">
+                          <label class="control-label" for="what-kind">What kind of event? </label>
+                          <select class="form-control col-sm-12"  required aria-required="true" id="what-kind">
+                            <option value="All event types">All event types</option>
+                            <option value="">Event type A</option>
+                            <option value="">Event type B</option>
+                            <option value="">--------------------------------</option>
+                          </select>
                         </div>
-                        
+                        <div class="form-item form-item-end form-type-textfield form-group">
+                          <label class="control-label" for="edit-date-end">Where? </label>
+                          <input class="form-control form-text" type="text" value="" size="17" placeholder="Enter a ZIP code or city name">
+                        </div>
+                        <div class="form-item form-item-end form-type-textfield form-group">
+                          <label class="control-label" for="edit-date-end"> &nbsp; </label>
+                          <a href="api_demo_result.html" class="submit-button primary-btn btn btn-primary form-submits" role="button"><i class="icon icon-search icon-inverse"></i> Find events</a> </div>
                       </div>
+                    </form>
+                  </div>
+                  <div class="table-responsive">
+                    <h2>Events at USPTO</h2>
+                    <br />
+                    <table class="table table-hover table-striped" style="margin:0px;">
+                      <thead>
+                        <tr>
+                          <th class="active col-sm-2"><a href="?sort=desc&amp;order=File%20name" title="sort by File name" class="active">Event name <i class="icon icon-caret-down"></i></a></th>
+                          <th>Description</th>
+                          <th class="col-sm-1"><a href="?sort=asc&amp;order=Released" title="sort by Source" class="active">Source</a></th>
+                          <th class="col-sm-2"><a href="?sort=asc&amp;order=Released" title="sort by Location">Location</a></th>
+                          <th class="col-sm-2"><a href="?sort=asc&amp;order=Released" title="sort by Date">Date <i class="icon icon-caret-down"></i></a></th>
+                        </tr>
+                      </thead>
+                    </table>
+                    <div style="overflow: auto; max-height: 400px; border-top: none;">
+                      <table class="table table-hover table-striped">
+                        <thead>
+                          <tr>
+                            <th class="active col-sm-2" style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Event name</th>
+                            <th style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Description</th>
+                            <th class="col-sm-1" style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Source</th>
+                            <th class="col-sm-2" style="height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Location</th>
+                            <th class="col-sm-2" style=" height: 0; line-height: 0; font-size: 0; padding: 0; border: 0;">Date</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                          <tr>
+                            <td class="active"><a href="#">#USPTOJobsHQ16: Patent Examiner Career Open House</a></td>
+                            <td>Take charge of a career that lets you shape the cutting edge of technology – join the U.S. Patent and Trademark Office (USPTO). On Friday, March 4th and Saturday, March 5th…</td>
+                            <td class=" text-center"><i class="icon icon-twitter-square"></i></td>
+                            <td>Alexandria</td>
+                            <td>Mar 04, 2016</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="table-responsive">
-                        <table class="sticky-header" style="position: fixed; top: 0px; left: 1175.14px; visibility: hidden;">
-                          <thead style="">
-                            <tr>
-                              <th class="active"><a href="?sort=desc&amp;order=Documents%20and%20resources" title="sort by Documents and resources" class="active">Documents and resources<img typeof="foaf:Image" class="img-responsive" src="images/arrow-desc.png" width="13" height="13" alt="sort descending" title="sort descending"></a></th>
-                            </tr>
-                          </thead>
-                        </table>
-                        
-                      </div>
-                    </div>
-          
-                  </div>
-                
-              </div>
-
- 
-      </section>
-      
-      <hr />
-      <section id="comments" class="comment-wrapper comment-wrapper-nid-73 divider row col-md-8">
-              <div class="row">
-                <div class="col-sm-7">
-                  <h2 class="comments__title"> <i class="fa fa-comments-o fa-1x"></i>&nbsp;
-                    0<span class="title-text"> Comments</span> </h2>
-                </div>
-                <div id="leave-comment" class="col-sm-5">
-                  <p> <a href="#comment-form">Leave a comment</a> </p>
-                </div>
-              </div>
-              <div class="ajax-comment-wrapper ajax-comment-dummy-comment" style="display:none">
-                <div class="form-item form-type-item form-group"></div>
-              </div>
-              <h2 id="comment-form" class="comment-form">Leave a comment</h2>
-              <p> To ensure that everyone can participate in polite conversation,
-                these comments will be moderated. For detailed information on how and
-                what we moderate, <a href="http://www.uspto.gov/terms-use-uspto-websites">view our comment policy.</a> </p>
-              <form class="comment-form user-info-from-cookie ajax-comments-reply-form-73-0-0 ajax-comments-form-add" id="ajax-comments-reply-form-73-0-0" action="https://developer-sit.etc.uspto.gov/comment/reply/73" method="post" accept-charset="UTF-8">
-                <div>
-                  <div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper form-group" id="edit-comment-body">
-                    <div id="comment-body-add-more-wrapper">
-                      <div class="form-item form-item-comment-body-und-0-value form-type-textarea form-group">
-                        <label class="control-label" for="edit-comment-body-und-0-value">Your message <span class="form-required" title="This field is required.">*</span></label>
-                        <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
-                          <textarea class="form-control-width-fill maxlength form-control form-textarea required maxlength-processed" maxlength="512" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5" placeholder="Type your comment here."></textarea>
-                          <div class="grippie"></div>
-                          <div id="edit-comment-body-und-0-value-counter" class="counter">Content limited to 512 characters, remaining: <strong>512</strong></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-item form-item-name form-type-textfield form-group">
-                    <label class="control-label" for="edit-name">Your name <span class="form-required" title="This field is required.">*</span></label>
-                    <input class="form-control form-text required" type="text" id="edit-name" name="name" value="" size="30" maxlength="60" placeholder="Enter your name">
-                  </div>
-                  <div class="form-item form-item-mail form-type-textfield form-group">
-                    <label class="control-label" for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
-                    <input class="form-control form-text required" title="" data-toggle="tooltip" type="text" id="edit-mail" name="mail" value="" size="30" maxlength="64" placeholder="Enter your email" data-original-title="The content of this field is kept private and will not be shown publicly.">
-                  </div>
-                  <input type="hidden" name="form_build_id" value="form-i26ALnVjekDlSIRFZOaMUp1OU0BtQppSDvvD4wUE30c">
-                  <input type="hidden" name="form_id" value="comment_node_product_form">
-                  <input type="hidden" name="honeypot_time" value="1458938059|BhC57hcnsdK9hYvLjESfjclivDbvKbz4lURiAQEaA7c">
-                  <div class="url-textfield">
-                    <div class="form-item form-item-url form-type-textfield form-group">
-                      <label class="control-label" for="edit-url">Leave this field blank </label>
-                      <input autocomplete="off" class="form-control form-text" type="text" id="edit-url" name="url" value="" size="20" maxlength="128">
-                    </div>
-                  </div>
-                  <div class="form-actions form-wrapper form-group" id="edit-actions">
-                    <button class="btn-primary btn form-submit ajax-processed" type="submit" id="edit-ajax-comments-reply-form-73-0-0" name="op" value="<i class=&quot;icon icon-comment icon-inverse&quot;></i> Post your comment"><i class="icon icon-comment icon-inverse"></i> Post your comment</button>
-                  </div>
-                </div>
-              </form>
-            </section>
-            
-            
-      <div class="clearfix"></div>
- 
-      
-      
-              
-      <!-- /IP Type description --> 
-      
-      <a id="main-content"></a>
-      <div class="region region-content">
-        <section id="block-system-main" class="block block-system clearfix">
-          <div class="panel-display boxton clearfix ">
-            <div class="boxton-container boxton-content boxton-content-region panel-panel">
-              <div class="panel-pane pane-term-name">
-                <div class="pane-content">
-                  <h2>Patent</h2>
-                </div>
-              </div>
-              <div class="panel-separator"></div>
-              <div class="panel-pane pane-entity-field-extra pane-taxonomy-term-description">
-                <div class="pane-content">
-                  <div class="taxonomy-term-description">
-                    <p>Grants, published applications, assignments, classification <br>
-                      information, and maintenance fee events</p>
                   </div>
                 </div>
               </div>
-              <div class="panel-separator"></div>
-              
+              <div class="col-sm-4">
+                <div class="table-responsive">
+                  <table class="sticky-header" style="position: fixed; top: 0px; left: 1175.14px; visibility: hidden;">
+                    <thead style="">
+                      <tr>
+                        <th class="active"><a href="?sort=desc&amp;order=Documents%20and%20resources" title="sort by Documents and resources" class="active">Documents and resources<img typeof="foaf:Image" class="img-responsive" src="images/arrow-desc.png" width="13" height="13" alt="sort descending" title="sort descending"></a></th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- /.boxton --> 
-          
         </section>
-      </div>
+        <hr />
+        <section id="comments" class="comment-wrapper comment-wrapper-nid-73 divider row col-md-8">
+          <div class="row">
+            <div class="col-sm-7">
+              <h2 class="comments__title"> <i class="fa fa-comments-o fa-1x"></i>&nbsp;
+                0<span class="title-text"> Comments</span> </h2>
+            </div>
+            <div id="leave-comment" class="col-sm-5">
+              <p> <a href="#comment-form">Leave a comment</a> </p>
+            </div>
+          </div>
+          <div class="ajax-comment-wrapper ajax-comment-dummy-comment" style="display:none">
+            <div class="form-item form-type-item form-group"></div>
+          </div>
+          <h2 id="comment-form" class="comment-form">Leave a comment</h2>
+          <p> To ensure that everyone can participate in polite conversation,
+            these comments will be moderated. For detailed information on how and
+            what we moderate, <a href="http://www.uspto.gov/terms-use-uspto-websites">view our comment policy.</a> </p>
+          <form class="comment-form user-info-from-cookie ajax-comments-reply-form-73-0-0 ajax-comments-form-add" id="ajax-comments-reply-form-73-0-0" action="https://developer-sit.etc.uspto.gov/comment/reply/73" method="post" accept-charset="UTF-8">
+            <div>
+              <div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper form-group" id="edit-comment-body">
+                <div id="comment-body-add-more-wrapper">
+                  <div class="form-item form-item-comment-body-und-0-value form-type-textarea form-group">
+                    <label class="control-label" for="edit-comment-body-und-0-value">Your message <span class="form-required" title="This field is required.">*</span></label>
+                    <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                      <textarea class="form-control-width-fill maxlength form-control form-textarea required maxlength-processed" maxlength="512" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5" placeholder="Type your comment here."></textarea>
+                      <div class="grippie"></div>
+                      <div id="edit-comment-body-und-0-value-counter" class="counter">Content limited to 512 characters, remaining: <strong>512</strong></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-item form-item-name form-type-textfield form-group">
+                <label class="control-label" for="edit-name">Your name <span class="form-required" title="This field is required.">*</span></label>
+                <input class="form-control form-text required" type="text" id="edit-name" name="name" value="" size="30" maxlength="60" placeholder="Enter your name">
+              </div>
+              <div class="form-item form-item-mail form-type-textfield form-group">
+                <label class="control-label" for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+                <input class="form-control form-text required" title="" data-toggle="tooltip" type="text" id="edit-mail" name="mail" value="" size="30" maxlength="64" placeholder="Enter your email" data-original-title="The content of this field is kept private and will not be shown publicly.">
+              </div>
+              <input type="hidden" name="form_build_id" value="form-i26ALnVjekDlSIRFZOaMUp1OU0BtQppSDvvD4wUE30c">
+              <input type="hidden" name="form_id" value="comment_node_product_form">
+              <input type="hidden" name="honeypot_time" value="1458938059|BhC57hcnsdK9hYvLjESfjclivDbvKbz4lURiAQEaA7c">
+              <div class="url-textfield">
+                <div class="form-item form-item-url form-type-textfield form-group">
+                  <label class="control-label" for="edit-url">Leave this field blank </label>
+                  <input autocomplete="off" class="form-control form-text" type="text" id="edit-url" name="url" value="" size="20" maxlength="128">
+                </div>
+              </div>
+              <div class="form-actions form-wrapper form-group" id="edit-actions">
+                <button class="btn-primary btn form-submit ajax-processed" type="submit" id="edit-ajax-comments-reply-form-73-0-0" name="op" value="<i class=&quot;icon icon-comment icon-inverse&quot;></i> Post your comment"><i class="icon icon-comment icon-inverse"></i> Post your comment</button>
+              </div>
+            </div>
+          </form>
+        </section>
+        <div class="clearfix"></div>
+        
+        <!-- /IP Type description --> 
+        
+        <a id="main-content"></a>
+        <div class="region region-content">
+          <section id="block-system-main" class="block block-system clearfix">
+            <div class="panel-display boxton clearfix ">
+              <div class="boxton-container boxton-content boxton-content-region panel-panel">
+                <div class="panel-pane pane-term-name">
+                  <div class="pane-content">
+                    <h2>Patent</h2>
+                  </div>
+                </div>
+                <div class="panel-separator"></div>
+                <div class="panel-pane pane-entity-field-extra pane-taxonomy-term-description">
+                  <div class="pane-content">
+                    <div class="taxonomy-term-description">
+                      <p>Grants, published applications, assignments, classification <br>
+                        information, and maintenance fee events</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-separator"></div>
+              </div>
+            </div>
+            <!-- /.boxton --> 
+            
+          </section>
+        </div>
       </div>
     </section>
     <aside class="col-sm-2" role="complementary">
@@ -518,9 +468,7 @@ Short, one-sentence description of the API
         <section id="block-uspto-odd-blocks-uspto-share-with-us" class="block block-uspto-odd-blocks clearfix">
           <h4>Created something with our data?</h4>
           <p>LET US KNOW</p>
-          <p>
-          Share your work with the USPTO Open Data Community - use the button below to submit your work.
-          </p>
+          <p> Share your work with the USPTO Open Data Community - use the button below to submit your work. </p>
           <!-- Modal -->
           <div id="share-your-work-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -540,20 +488,11 @@ Short, one-sentence description of the API
           </div>
           <button id="share-your-work-button" type="button" class="btn btn-primary" data-target="#share-your-work-modal" data-toggle="modal"> Share your work! &nbsp;<i class="fa fa-gift"></i> </button>
         </section>
-        
-        
-        
-        
-        
         <br />
-        
-        
-         <section id="block-uspto-odd-blocks-uspto-have-issue" class="block block-uspto-odd-blocks clearfix">
+        <section id="block-uspto-odd-blocks-uspto-have-issue" class="block block-uspto-odd-blocks clearfix">
           <h4>Have an issue?</h4>
           <p>TELL US</p>
-          <p>
-          SWe’re building this site around you, but we can’t do that without your help. Need to report a bug? Can’t find something you’re expecting to be here? Drop us a line.
-          </p>
+          <p> SWe’re building this site around you, but we can’t do that without your help. Need to report a bug? Can’t find something you’re expecting to be here? Drop us a line. </p>
           <!-- Modal -->
           <div id="have-issue-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -573,36 +512,12 @@ Short, one-sentence description of the API
           </div>
           <button id="have-issue-button" type="button" class="btn btn-primary" data-target="#share-your-work-modal" data-toggle="modal"> Send us some feedback &nbsp;<i class="fa fa-bullhorn"></i> </button>
         </section>
-        
-        
-        
       </div>
     </aside>
     <!-- /#sidebar-second --> 
     
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <button class="myLinkToTop" id="but1"></button>
 <footer class="footer container"> <a href="https://developer-sit.etc.uspto.gov/product/patent#" onclick="return false;" class="fa fa-angle-up" id="hide-menu-button" data-toggle="collapse" data-target="#hidden-menu" title="footer expand/collapse" alt="footer expand/collapse" tabindex="0"></a>
   <div class="region region-footer">
@@ -695,10 +610,6 @@ Short, one-sentence description of the API
 <!-- JH Start --> 
 <script src="js/classie.js"></script> 
 <script src="js/mlpushmenu.js"></script> 
-
-
-
-
 <script>
 
 
@@ -777,7 +688,7 @@ Short, one-sentence description of the API
 		};
 		*/	
 		</script> 
-        
+
 <!-- JH End -->
 
 </body>
