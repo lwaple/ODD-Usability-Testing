@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-
-<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" class="js">
+<!-- ------------------ -->
+<!-- Prototype Use Only -->
+<!-- ------------------ -->
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" class="js"><!-- InstanceBegin template="/Templates/api_details.dwt" codeOutsideHTMLIsLocked="false" -->
 <head profile="http://www.w3.org/1999/xhtml/vocab">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
@@ -25,7 +27,9 @@
 <meta name="generator" content="Drupal 7 (http://drupal.org)">
 <link rel="canonical" href="https://developer-sit.etc.uspto.gov/product/patent">
 <link rel="shortlink" href="https://developer-sit.etc.uspto.gov/taxonomy/term/1">
+<!-- InstanceBeginEditable name="doctitle" -->
 <title>Patent | United States Patent and Trademarks Office - Open Data Portal</title>
+<!-- InstanceEndEditable -->
 <style>
 @import url("css/system.base.css?o4nk4b");
 </style>
@@ -75,13 +79,13 @@
 <script src="js/jquery_update.js"></script>
 <script src="js/uspto_odd_comments.js"></script>
 <script src="js/uspto_odd_external_link.js"></script>
-<script src="js/api.js"></script>
-
+<script src="js/products.js"></script>
 <script src="js/moment.min.js"></script>
 <script src="js/bootstrap-datetimepicker.min.js"></script>
 <script src="js/uspto_odd_share_work.js"></script>
 <script src="js/moment-with-locales.min.js"></script>
 <script src="js/extlink.js"></script>
+<script src="js/uspto_odd_core.js"></script><script src="Patent%20_%20United%20States%20Patent%20and%20Trademarks%20Office%20-%20Open%20Data%20Portal_files" type="text/javascript" defer=""></script>
 <script src="js/jquery.colorbox-min.js"></script>
 <script src="js/colorbox.js"></script>
 <script src="js/colorbox_style.js"></script>
@@ -115,6 +119,8 @@
 
 <!-- JH End -->
 
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
 </head>
 <body class="html not-front not-logged-in two-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-1">
 <div id="skip-link"> <a href="https://developer-sit.etc.uspto.gov/product/patent#main-content" class="element-invisible element-focusable">Skip to main content</a> </div>
@@ -158,254 +164,242 @@
     </nav>
   </div>
 </header>
-
-
-
-
 <div id="category" class="main-container container-fluid">
   <header role="banner" id="page-header"> </header>
   <!-- /#page-header -->
   
   <div class="row">
     <aside class="col-sm-2 col-container-nav" role="complementary" id="col-container-nav">
-    
-    
-    
-    
-    
-    
-    <div class="container-nav" id="container-nav">
-    <div class="container-nav-inner" id="container-nav-inner">
-    
-<!-- Push Wrapper -->
-<div class="mp-pusher" id="mp-pusher" style="min-height:1100px;">
-<!-- mp-menu -->
-<nav id="mp-menu" class="mp-menu">
-<div class="mp-level">
-<!-- <h2 class="">1</h2> -->
-<ul>
-    <li><a href="api.html"><i class="icon  icon-angle-left icon-inverse"></i> USPTO APIs </a></li>
-    
-    <li><a href="api_patents_view.html"> PatentsView API </a></li>
-    <li><a href="api_pair_bulk_data.html"> PAIR Bulk Data API </a></li>
-    <li class="mp-active"> <a  href="api_unified_events.html"> Unified Events API </a></li>
-    <li><a  href="api_trademark_search.html"> Trademark Search API </a></li>
-    <li><a  href="api_patent_search.html"> Patent Search API</a></li>
-    <li><a  href="api_general_patent_statistics.html"> General Patent Statistics API </a></li>
+      <div class="container-nav" id="container-nav">
+        <div class="container-nav-inner" id="container-nav-inner"> 
+          
+          <!-- Push Wrapper -->
+          <div class="mp-pusher" id="mp-pusher" style="min-height:1100px;"> 
+            <!-- mp-menu -->
+            <nav id="mp-menu" class="mp-menu">
+              <div class="mp-level"> 
+                <!-- <h2 class="">1</h2> -->
+                <ul>
+                  <li><a href="api.html"><i class="icon  icon-angle-left icon-inverse"></i> USPTO APIs </a></li>
+                  <!-- InstanceBeginEditable name="menu" -->
                   
-</ul>
-</div>
-</nav>
-<!-- /mp-menu -->
-<div class="scroller" id="scroller">
-  <!-- this is for emulating position fixed of the nav -->
-  <div class="scroller-inner">
-    <!-- Top Navigation -->
-    <div class="content clearfix">
-      <div class="block clearfix">
-        <p><a id="trigger" class="icon icon-bars menu-trigger" href="#"></a></p>
-        <br />
-        <br />
-        <br />
+                  <li> <a href="api_patents_view.html"> PatentsView API </a></li>
+                  <li><a  href="api_pair_bulk_data.html"> PAIR Bulk Data API </a></li>
+                  <li><a  href="api_unified_events.html"> Unified Events API </a></li>
+                  <li class="mp-active"><a  href="api_trademark_search.html"> Trademark Search API </a></li>
+                  <li><a  href="api_patent_search.html"> Patent Search API</a></li>
+                  <li><a  href="api_general_patent_statistics.html"> General Patent Statistics API </a></li>
+                  <!-- InstanceEndEditable -->
+                  
+                </ul>
+              </div>
+            </nav>
+            <!-- /mp-menu -->
+            <div class="scroller" id="scroller"> 
+              <!-- this is for emulating position fixed of the nav -->
+              <div class="scroller-inner"> 
+                <!-- Top Navigation -->
+                <div class="content clearfix">
+                  <div class="block clearfix">
+                    <p><a id="trigger" class="icon icon-bars menu-trigger" href="#"></a></p>
+                    <br />
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+              <!-- /scroller-inner --> 
+            </div>
+            <!-- /scroller -->
+            <div class="clearfix"></div>
+          </div>
+          <!-- /pusher --> 
+        </div>
       </div>
-    </div>
-  </div>
-  <!-- /scroller-inner -->
-</div>
-<!-- /scroller -->
-<div class="clearfix"></div>
-</div>
-<!-- /pusher -->
-</div>
-</div>
-
     </aside>
     <!-- /#sidebar-first -->
     
-    <section class="col-md-8" style="padding:0px; "> 
-
+    <section class="col-md-8" style="padding:0px; ">
+      <div style=" padding:30px;"> 
         
-      <div style=" padding:30px;">
-      
-      
-      
-      <!-- IP Type description -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Unified Events API</h1>
-          <h2>
-          Version | API category<br />
-Short, one-sentence description of the API
-          </h2>
-          <hr />
-          <p> Overview paragraph that describes the API. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-       				
-        </div>
-      </div>
-      
-   <section id="filters" class="block block-views clearfix ">
-      	<hr />
-      	
-        
-        
-        
+        <!-- IP Type description -->
         <div class="row">
-                
-                  <div>
-                    <div class="col-sm-12 unified-event-block">
-                      <div id="edit-files" class="form-group_DEL">
-                        
-                        <div class="">
-                        <h2>Unified Events API in action</h2>
-                        <p>Check out what's happening at the USPTO</p>
-                        
-                        
-                        <form id="product-filter-form" class="form-inline" action="api_demo_result.html" method="post" accept-charset="UTF-8">
-                        	<div class="filter-container form-wrapper form-group" id="edit-filter">
-                          <div class="form-item form-item-start form-type-textfield form-group"> <label class="control-label" for="edit-date-start">From </label>
-<input class="field-year-start form-control form-text" type="text" id="edit-date-start" name="start" value="" size="17" maxlength="4" placeholder="mm/dd/yyyy"></div>
-                          <div class="form-item form-item-end form-type-textfield form-group">
-                            <label class="control-label" for="edit-date-end">To </label>
-                            <input class="field-year-end form-control form-text" type="text" id="edit-date-end" name="end" value="" size="17" placeholder="mm/dd/yyyy">
-                          </div>
-                          <div class="form-item form-item-end form-type-textfield form-group">
-                            <label class="control-label" for="what-kind">What kind of event?     </label>
-                            <select class="form-control col-sm-12"  required aria-required="true" id="what-kind">
-                              <option value="All event types">All event types</option>
-                              <option value="">Event type A</option>
-                              <option value="">Event type B</option>
-                              <option value="">--------------------------------</option>
-    					</select>
-                          </div>
-                          <div class="form-item form-item-end form-type-textfield form-group">
-                            <label class="control-label" for="edit-date-end">Where? </label>
-                            <input class="form-control form-text" type="text" value="" size="17" placeholder="Enter a ZIP code or city name">
-                          </div>
-                          
-                          <button class="submit-button primary-btn btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Filter"><i class="icon icon-search icon-inverse"></i> Find events</button>
-   
-                        </div>
-                        
-                        
-                        <br /><br /><br /><br /><br /><br /><br /><br />
-                        </form>
-                        </div>
-                        
-                        
-                        
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="table-responsive">
-                        <table class="sticky-header" style="position: fixed; top: 0px; left: 1175.14px; visibility: hidden;">
-                          <thead style="">
-                            <tr>
-                              <th class="active"><a href="?sort=desc&amp;order=Documents%20and%20resources" title="sort by Documents and resources" class="active">Documents and resources<img typeof="foaf:Image" class="img-responsive" src="images/arrow-desc.png" width="13" height="13" alt="sort descending" title="sort descending"></a></th>
-                            </tr>
-                          </thead>
-                        </table>
-                        
-                      </div>
-                    </div>
-          
-                  </div>
-                
-              </div>
-
- 
-      </section>
-      
-      <hr />
-      <section id="comments" class="comment-wrapper comment-wrapper-nid-73 divider row col-md-8">
-              <div class="row">
-                <div class="col-sm-7">
-                  <h2 class="comments__title"> <i class="fa fa-comments-o fa-1x"></i>&nbsp;
-                    0<span class="title-text"> Comments</span> </h2>
-                </div>
-                <div id="leave-comment" class="col-sm-5">
-                  <p> <a href="#comment-form">Leave a comment</a> </p>
-                </div>
-              </div>
-              <div class="ajax-comment-wrapper ajax-comment-dummy-comment" style="display:none">
-                <div class="form-item form-type-item form-group"></div>
-              </div>
-              <h2 id="comment-form" class="comment-form">Leave a comment</h2>
-              <p> To ensure that everyone can participate in polite conversation,
-                these comments will be moderated. For detailed information on how and
-                what we moderate, <a href="http://www.uspto.gov/terms-use-uspto-websites">view our comment policy.</a> </p>
-              <form class="comment-form user-info-from-cookie ajax-comments-reply-form-73-0-0 ajax-comments-form-add" id="ajax-comments-reply-form-73-0-0" action="https://developer-sit.etc.uspto.gov/comment/reply/73" method="post" accept-charset="UTF-8">
-                <div>
-                  <div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper form-group" id="edit-comment-body">
-                    <div id="comment-body-add-more-wrapper">
-                      <div class="form-item form-item-comment-body-und-0-value form-type-textarea form-group">
-                        <label class="control-label" for="edit-comment-body-und-0-value">Your message <span class="form-required" title="This field is required.">*</span></label>
-                        <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
-                          <textarea class="form-control-width-fill maxlength form-control form-textarea required maxlength-processed" maxlength="512" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5" placeholder="Type your comment here."></textarea>
-                          <div class="grippie"></div>
-                          <div id="edit-comment-body-und-0-value-counter" class="counter">Content limited to 512 characters, remaining: <strong>512</strong></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-item form-item-name form-type-textfield form-group">
-                    <label class="control-label" for="edit-name">Your name <span class="form-required" title="This field is required.">*</span></label>
-                    <input class="form-control form-text required" type="text" id="edit-name" name="name" value="" size="30" maxlength="60" placeholder="Enter your name">
-                  </div>
-                  <div class="form-item form-item-mail form-type-textfield form-group">
-                    <label class="control-label" for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
-                    <input class="form-control form-text required" title="" data-toggle="tooltip" type="text" id="edit-mail" name="mail" value="" size="30" maxlength="64" placeholder="Enter your email" data-original-title="The content of this field is kept private and will not be shown publicly.">
-                  </div>
-                  <input type="hidden" name="form_build_id" value="form-i26ALnVjekDlSIRFZOaMUp1OU0BtQppSDvvD4wUE30c">
-                  <input type="hidden" name="form_id" value="comment_node_product_form">
-                  <input type="hidden" name="honeypot_time" value="1458938059|BhC57hcnsdK9hYvLjESfjclivDbvKbz4lURiAQEaA7c">
-                  <div class="url-textfield">
-                    <div class="form-item form-item-url form-type-textfield form-group">
-                      <label class="control-label" for="edit-url">Leave this field blank </label>
-                      <input autocomplete="off" class="form-control form-text" type="text" id="edit-url" name="url" value="" size="20" maxlength="128">
-                    </div>
-                  </div>
-                  <div class="form-actions form-wrapper form-group" id="edit-actions">
-                    <button class="btn-primary btn form-submit ajax-processed" type="submit" id="edit-ajax-comments-reply-form-73-0-0" name="op" value="<i class=&quot;icon icon-comment icon-inverse&quot;></i> Post your comment"><i class="icon icon-comment icon-inverse"></i> Post your comment</button>
-                  </div>
-                </div>
-              </form>
-            </section>
-            
-            
-      <div class="clearfix"></div>
- 
-      
-      
-              
-      <!-- /IP Type description --> 
-      
-      <a id="main-content"></a>
-      <div class="region region-content">
-        <section id="block-system-main" class="block block-system clearfix">
-          <div class="panel-display boxton clearfix ">
-            <div class="boxton-container boxton-content boxton-content-region panel-panel">
-              <div class="panel-pane pane-term-name">
-                <div class="pane-content">
-                  <h2>Patent</h2>
-                </div>
-              </div>
-              <div class="panel-separator"></div>
-              <div class="panel-pane pane-entity-field-extra pane-taxonomy-term-description">
-                <div class="pane-content">
-                  <div class="taxonomy-term-description">
-                    <p>Grants, published applications, assignments, classification <br>
-                      information, and maintenance fee events</p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel-separator"></div>
-              
+          <div class="col-md-12">
+            <h1><!-- InstanceBeginEditable name="head_1" -->Trademark Search API <!-- InstanceEndEditable --> </h1>
+            <h2> Version | API category<br />
+              Short, one-sentence description of the API </h2>
+            <hr />
+            <p> Overview paragraph that describes the API. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            <div class=""><a href="#"> <i class="icon icon-code"></i> View on Swagger</a></div>
+            <div class=""><a href="#"><i class="icon icon-asterisk"></i> View on AIS</a></div>
+            <div class=""><a href="#"><i class="icon  icon-book"></i> API documentation</a></div>
+            <div class=""><a href="api_demo.html"><i class="icon  icon-square"></i> API demo </a></div>
+          </div>
+        </div>
+        <hr />
+        <section id="comments" class="comment-wrapper comment-wrapper-nid-73 divider row col-md-8">
+          <div class="row">
+            <div class="col-sm-7">
+              <h2 class="comments__title"> <i class="fa fa-comments-o fa-1x"></i>&nbsp;
+                0<span class="title-text"> Comments</span> </h2>
+            </div>
+            <div id="leave-comment" class="col-sm-5">
+              <p> <a href="#comment-form">Leave a comment</a> </p>
             </div>
           </div>
-          <!-- /.boxton --> 
-          
+          <div class="ajax-comment-wrapper ajax-comment-dummy-comment" style="display:none">
+            <div class="form-item form-type-item form-group"></div>
+          </div>
+          <h2 id="comment-form" class="comment-form">Leave a comment</h2>
+          <p> To ensure that everyone can participate in polite conversation,
+            these comments will be moderated. For detailed information on how and
+            what we moderate, <a href="http://www.uspto.gov/terms-use-uspto-websites">view our comment policy.</a> </p>
+          <form class="comment-form user-info-from-cookie ajax-comments-reply-form-73-0-0 ajax-comments-form-add" id="ajax-comments-reply-form-73-0-0" action="https://developer-sit.etc.uspto.gov/comment/reply/73" method="post" accept-charset="UTF-8">
+            <div>
+              <div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper form-group" id="edit-comment-body">
+                <div id="comment-body-add-more-wrapper">
+                  <div class="form-item form-item-comment-body-und-0-value form-type-textarea form-group">
+                    <label class="control-label" for="edit-comment-body-und-0-value">Your message <span class="form-required" title="This field is required.">*</span></label>
+                    <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                      <textarea class="form-control-width-fill maxlength form-control form-textarea required maxlength-processed" maxlength="512" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5" placeholder="Type your comment here."></textarea>
+                      <div class="grippie"></div>
+                      <div id="edit-comment-body-und-0-value-counter" class="counter">Content limited to 512 characters, remaining: <strong>512</strong></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-item form-item-name form-type-textfield form-group">
+                <label class="control-label" for="edit-name">Your name <span class="form-required" title="This field is required.">*</span></label>
+                <input class="form-control form-text required" type="text" id="edit-name" name="name" value="" size="30" maxlength="60" placeholder="Enter your name">
+              </div>
+              <div class="form-item form-item-mail form-type-textfield form-group">
+                <label class="control-label" for="edit-mail">E-mail <span class="form-required" title="This field is required.">*</span></label>
+                <input class="form-control form-text required" title="" data-toggle="tooltip" type="text" id="edit-mail" name="mail" value="" size="30" maxlength="64" placeholder="Enter your email" data-original-title="The content of this field is kept private and will not be shown publicly.">
+              </div>
+              <input type="hidden" name="form_build_id" value="form-i26ALnVjekDlSIRFZOaMUp1OU0BtQppSDvvD4wUE30c">
+              <input type="hidden" name="form_id" value="comment_node_product_form">
+              <input type="hidden" name="honeypot_time" value="1458938059|BhC57hcnsdK9hYvLjESfjclivDbvKbz4lURiAQEaA7c">
+              <div class="url-textfield">
+                <div class="form-item form-item-url form-type-textfield form-group">
+                  <label class="control-label" for="edit-url">Leave this field blank </label>
+                  <input autocomplete="off" class="form-control form-text" type="text" id="edit-url" name="url" value="" size="20" maxlength="128">
+                </div>
+              </div>
+              <div class="form-actions form-wrapper form-group" id="edit-actions">
+                <button class="btn-primary btn form-submit ajax-processed" type="submit" id="edit-ajax-comments-reply-form-73-0-0" name="op" value="<i class=&quot;icon icon-comment icon-inverse&quot;></i> Post your comment"><i class="icon icon-comment icon-inverse"></i> Post your comment</button>
+              </div>
+            </div>
+          </form>
         </section>
-      </div>
+        <div class="clearfix"></div>
+        <section id="block-views-popular-products-block-1" class="block block-views clearfix">
+          <hr />
+          <h2>Related products</h2>
+          <br />
+          <div class="view view-popular-products view-id-popular_products view-display-id-block_1 view-dom-id-2f4712dbcfdaeb9d983e8bb9277ce8cb">
+            <div class="view-content">
+              <div id="views-bootstrap-grid-1" class="views-bootstrap-grid-plugin-style">
+                <div class="row">
+                  <div class="col col-lg-4">
+                    <div id="node-81" class="node-product-card" about="/product/patent-grant-dataxml" typeof="sioc:Item foaf:Document">
+                      <div class="panel panel-default">
+                        <div class="padding-2">
+                          <h2 class="margin-top-0 margin-bottom-2"><a href="04_03_Patent_grant_full_text_data_with_embedded_TIFF_images.html">Patent grant data/XML</a></h2>
+                          <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                            <div class="field-items">
+                              <div class="field-item even" property="content:encoded">
+                                <p>Contains (JAN 2002 - Present) the full text, images/drawings, and complex work units (tables, mathematical expressions, chemical structures, and genetic sequence data) of each patent grant (excludes reexaminations) issued weekly (Tuesdays) in CY2016. The file format is extensible Markup Language...</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-action text-center padding-2"> <span>Latest release: <b>I20151117.tar</b><b> | Nov. 17, 2015</b></span>
+                          <button class="btn btn-primary btn-block">
+                          <i class="icon icon-download icon-inverse"></i>&nbsp; <a href="https://data.uspto.gov/data2/patent/grant/redbook/2015/I20151117.tar">Download latest (2.72GB)</a>
+                          </button>
+                        </div>
+                        <div class="text-center padding-1"> <a href="04_03_Patent_grant_full_text_data_with_embedded_TIFF_images.html">View details and archives</a> </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-lg-4">
+                    <div id="node-83" class="node-product-card" about="/product/patent-grant-full-text-dataxml" typeof="sioc:Item foaf:Document">
+                      <div class="panel panel-default">
+                        <div class="padding-2">
+                          <h2 class="margin-top-0 margin-bottom-2"><a href="04_04_Patent%20grant%20full%20text.html">Patent grant full text data/XML</a></h2>
+                          <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                            <div class="field-items">
+                              <div class="field-item even" property="content:encoded">
+                                <p>Contains (JAN 2002 - Present) the full text of each patent grant issued weekly (Tuesdays) in CY2016 (excludes images/drawings and reexaminations). The file format is eXtensible Markup Language (XML) in accordance with the Patent Grant International Common Element (ICE) Document Type Definition (...</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-action text-center padding-2"> <span>Latest release: <b>ipg151117.zip</b><b> | Nov. 17, 2015</b></span>
+                          <button class="btn btn-primary btn-block">
+                          <i class="icon icon-download icon-inverse"></i>&nbsp; <a href="https://data.uspto.gov/data2/patent/grant/redbook/fulltext/2015/ipg151117.zip">Download latest (120.9MB)</a>
+                          </button>
+                        </div>
+                        <div class="text-center padding-1"> <a href="04_04_Patent%20grant%20full%20text.html">View details and archives</a> </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-lg-4">
+                    <div id="node-93" class="node-product-card" about="/product/patent-application-dataxml" typeof="sioc:Item foaf:Document">
+                      <div class="panel panel-default">
+                        <div class="padding-2">
+                          <h2 class="margin-top-0 margin-bottom-2"><a href="#">Patent application data/XML</a></h2>
+                          <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                            <div class="field-items">
+                              <div class="field-item even" property="content:encoded">
+                                <p>Contains the full text, images/drawings, and complex work units (tables, mathematical expressions, chemical structures, and genetic sequence data) of each patent application (non-provisional utility and plant) published weekly (Thursdays) in CY2016. The file format is eXtensible Markup Language...</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-action text-center padding-2"> <span>Latest release: <b>I20151112.tar</b><b> | Nov. 12, 2015</b></span>
+                          <button class="btn btn-primary btn-block">
+                          <i class="icon icon-download icon-inverse"></i>&nbsp; <a href="https://data.uspto.gov/data2/patent/application/redbook/2015/I20151112.tar">Download latest (2.83GB)</a>
+                          </button>
+                        </div>
+                        <div class="text-center padding-1"> <a href="#">View details and archives</a> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- /IP Type description --> 
+        
+        <a id="main-content"></a>
+        <div class="region region-content">
+          <section id="block-system-main" class="block block-system clearfix">
+            <div class="panel-display boxton clearfix ">
+              <div class="boxton-container boxton-content boxton-content-region panel-panel">
+                <div class="panel-pane pane-term-name">
+                  <div class="pane-content">
+                    <h2>Patent</h2>
+                  </div>
+                </div>
+                <div class="panel-separator"></div>
+                <div class="panel-pane pane-entity-field-extra pane-taxonomy-term-description">
+                  <div class="pane-content">
+                    <div class="taxonomy-term-description">
+                      <p>Grants, published applications, assignments, classification <br>
+                        information, and maintenance fee events</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-separator"></div>
+              </div>
+            </div>
+            <!-- /.boxton --> 
+            
+          </section>
+        </div>
       </div>
     </section>
     <aside class="col-sm-2" role="complementary">
@@ -413,9 +407,7 @@ Short, one-sentence description of the API
         <section id="block-uspto-odd-blocks-uspto-share-with-us" class="block block-uspto-odd-blocks clearfix">
           <h4>Created something with our data?</h4>
           <p>LET US KNOW</p>
-          <p>
-          Share your work with the USPTO Open Data Community - use the button below to submit your work.
-          </p>
+          <p> Share your work with the USPTO Open Data Community - use the button below to submit your work. </p>
           <!-- Modal -->
           <div id="share-your-work-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -435,20 +427,11 @@ Short, one-sentence description of the API
           </div>
           <button id="share-your-work-button" type="button" class="btn btn-primary" data-target="#share-your-work-modal" data-toggle="modal"> Share your work! &nbsp;<i class="fa fa-gift"></i> </button>
         </section>
-        
-        
-        
-        
-        
         <br />
-        
-        
-         <section id="block-uspto-odd-blocks-uspto-have-issue" class="block block-uspto-odd-blocks clearfix">
+        <section id="block-uspto-odd-blocks-uspto-have-issue" class="block block-uspto-odd-blocks clearfix">
           <h4>Have an issue?</h4>
           <p>TELL US</p>
-          <p>
-          SWe’re building this site around you, but we can’t do that without your help. Need to report a bug? Can’t find something you’re expecting to be here? Drop us a line.
-          </p>
+          <p> SWe’re building this site around you, but we can’t do that without your help. Need to report a bug? Can’t find something you’re expecting to be here? Drop us a line. </p>
           <!-- Modal -->
           <div id="have-issue-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -468,36 +451,12 @@ Short, one-sentence description of the API
           </div>
           <button id="have-issue-button" type="button" class="btn btn-primary" data-target="#share-your-work-modal" data-toggle="modal"> Send us some feedback &nbsp;<i class="fa fa-bullhorn"></i> </button>
         </section>
-        
-        
-        
       </div>
     </aside>
     <!-- /#sidebar-second --> 
     
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <button class="myLinkToTop" id="but1"></button>
 <footer class="footer container"> <a href="https://developer-sit.etc.uspto.gov/product/patent#" onclick="return false;" class="fa fa-angle-up" id="hide-menu-button" data-toggle="collapse" data-target="#hidden-menu" title="footer expand/collapse" alt="footer expand/collapse" tabindex="0"></a>
   <div class="region region-footer">
@@ -590,10 +549,6 @@ Short, one-sentence description of the API
 <!-- JH Start --> 
 <script src="js/classie.js"></script> 
 <script src="js/mlpushmenu.js"></script> 
-
-
-
-
 <script>
 
 
@@ -672,8 +627,8 @@ Short, one-sentence description of the API
 		};
 		*/	
 		</script> 
-        
+
 <!-- JH End -->
 
 </body>
-</html>
+<!-- InstanceEnd --></html>
