@@ -24,11 +24,10 @@
 <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="description" content="Grants, published applications, assignments, classification information, and maintenance fee events">
-<meta name="generator" content="Drupal 7 (http://drupal.org)">
-<link rel="canonical" href="https://developer-sit.etc.uspto.gov/product/patent">
-<link rel="shortlink" href="https://developer-sit.etc.uspto.gov/taxonomy/term/1">
+
+
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Patent | United States Patent and Trademarks Office - Open Data Portal</title>
+<title>United States Patent and Trademarks Office - Open Data Portal</title>
 <!-- TemplateEndEditable -->
 <style>
 @import url("../css/system.base.css?o4nk4b");
