@@ -230,3 +230,20 @@ mp-pushed{
 	background-position:right top;
 	
 }
+
+
+/*footer*/
+.region-footer{
+	
+}
+
+#usptoAppFooter{
+	background-color:transparent;
+	
+}
+
+.footer-branding-row .navbar-collapse{
+	background-color:transparent;
+	text-align:left;
+	
+}
